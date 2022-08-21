@@ -14,7 +14,7 @@ const router = createRouter({
     },
     {
       path: '/favor',
-      component: () => import('@/views/home/index.vue'),
+      component: () => import('@/views/favor/index.vue'),
     },
     {
       path: '/message',
