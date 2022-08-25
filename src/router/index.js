@@ -24,6 +24,13 @@ const router = createRouter({
       path: '/order',
       component: () => import('@/views/order/index.vue'),
     },
+    {
+      path: '/city',
+      component: () => import('@/views/city/index.vue'),
+      meta:{
+        hideToolbar:true
+      }
+    }
   ],
 })
 
